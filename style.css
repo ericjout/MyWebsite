@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-image: url('woodbackground.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.nav-bar {
+    background-color: black; 
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.nav-bar a {
+    text-decoration: none; 
+    color: white; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+}
+
+.nav-bar a:hover {
+    background-color: lightslategray; 
+}
+
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: auto; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+#profile-image {
+    width: 400px; 
+    height: auto; 
+    border: solid; 
+}
+
+.image-container2 {
+    display: flex; 
+    justify-content: left;  
+    height: auto; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    padding-left: 20px;
+}
+
+#profile-image2 {
+    width: 400px; 
+    height: auto; 
+    border: solid; 
+}
+
+.education-header{
+    text-align: left; 
+    color: white;
+}
+
+.work-header{
+    text-align: left; 
+    color: white;
+}
+
+.projects-header{
+    text-align: left; 
+    color: white;
+}
+
+.skills-header{
+    text-align: left; 
+    color: white;
+    margin-left: 10px;
+}
+
+.header {
+    text-align: center; 
+    color: white;
+    border: solid;
+    border-width: 5px;
+}
+h2{
+    text-align: center; 
+    color: white;
+}
+.about {
+    text-align: center; 
+    color: BLACK;
+}
+
+table {
+    margin: 20px auto; 
+    width: 80%; 
+    border-collapse: collapse; 
+    border-width: 100px;
+    
+}
+
+th {
+    border: 1px solid black; 
+    padding: 20px; 
+    text-align: left; 
+    padding-bottom: 35px;
+    background-color: white; 
+}
+
+td {
+    background-color: white; 
+    border: 1px solid black; 
+    padding: 20px; 
+    text-align: left; 
+    padding-bottom: 35px;
+}
+
+footer {
+    background-color: black; 
+    color: white; 
+    text-align: center; 
+    padding: 10px 0; 
+    position: relative; 
+    bottom: 0; 
+    width: 100%; 
+}
+#carpentryproject1-image{
+    width: 400px; 
+    height: auto; 
+    border: solid; 
+    margin: 0 10px;
+}
+#carpentryproject2-image{
+    width: 400px; 
+    height: auto; 
+    border: solid; 
+    margin: 0 10px;
+}
+.image-container2 {
+    display: flex;         
+    justify-content: center; 
+    flex-wrap: wrap; 
+}  
+header {
+    text-align: center; 
+    color: white;
+    border: solid;
+    border-width: 5px;
+}
+
+.hobby-image{
+    width: 400px; 
+    height: auto; 
+    border: solid; 
+    margin: 0 10px;
+}
+h3{
+    color: white;
+    text-decoration: underline;
+}
+.hobbies-list {
+    list-style-type: disc;
+    text-align: center;
+}
+
+.hobbies-list li {
+    color: white; 
+    text-align: center;
+    position: relative;
+}
